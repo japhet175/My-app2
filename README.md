@@ -38,13 +38,21 @@ Component-based architecture
 **Project Structure**
 ---
 text
+---
 src/
+---
 ├── components/     # Reusable UI components
+---
 ├── contexts/       # React Context providers
+---
 ├── pages/          # Main view components
+---
 ├── styles/         # CSS files
+---
 └── utils/          # Helper functions
+---
 Getting Started
+---
 Clone the repository
 
 Install dependencies: npm install
