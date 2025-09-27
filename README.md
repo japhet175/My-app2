@@ -1,12 +1,84 @@
-# React + Vite
+**IhuZA Inventory Management System**
+A React.js-based user interface for inventory management and product assignment tracking.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Project Overview**
+This is a frontend implementation of an inventory management system that allows users to monitor inventory status, track product assignments, and manage user roles. The interface features a clean light theme with real-time data visualization.
 
-Currently, two official plugins are available:
+**Features**
+Dashboard Overview: View system status and recent activity
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User Management: Browse users with roles (Admin, Manager, Staff) and status tracking
 
-## Expanding the ESLint configuration
+Inventory Tracking: Monitor product stock levels and recent additions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Activity Log: Track recent system events and assignments
+
+Responsive Design: Works on desktop and mobile devices
+
+**Demo Login**
+To test the interface, use these credentials:
+
+Email: john.smith@ihuza.com
+
+Password: 123
+
+Technology Stack
+React.js
+
+Context API for state management
+
+tailwindCSS for styling
+
+Component-based architecture
+
+**Project Structure**
+
+text
+src/
+├── components/     # Reusable UI components
+├── contexts/       # React Context providers
+├── pages/          # Main view components
+├── styles/         # CSS files
+└── utils/          # Helper functions
+Getting Started
+Clone the repository
+
+Install dependencies: npm install
+
+Start the development server: npm start
+
+Open http://localhost:3000 in your browser
+
+**Login with the demo credentials**
+
+Available Scripts
+npm start - Runs the app in development mode
+
+npm build - Builds the app for production
+
+npm test - Launches the test runner
+
+User Roles
+The system supports three user roles:
+
+Admin: Full system access
+
+Manager: Staff and inventory management
+
+Staff: Limited access for viewing assignments
+
+Components
+Login authentication interface
+
+Dashboard with system overview
+
+User management table
+
+Inventory tracking display
+
+Recent activity timeline
+
+Quick action navigation
+
+**Note**
+This is a frontend-only implementation with simulated authentication for demonstration purposes. All data is static and mock for UI/UX testing.
